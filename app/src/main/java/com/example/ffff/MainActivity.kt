@@ -4,6 +4,7 @@ import android.content.ContentValues
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.ffff.getData.Bank
@@ -27,6 +28,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getAllData(){
+        progressBar.visibility=View.VISIBLE
         val service=ServiceBuilder.buildService(WebService::class.java)
         val responseData:Call<Bank> = service.getData()
 
@@ -38,6 +40,7 @@ class MainActivity : AppCompatActivity() {
             override fun onResponse(call: Call<Bank>, response: Response<Bank>) {
                 if (response.isSuccessful){
                     val dataList= response.body()!!
+                    progressBar.visibility= View.GONE
                     recycler_view.adapter=RecyclerAdapter(this@MainActivity,dataList)
                     Log.d("msg",dataList.toString())
                     var dbManager=DbManager(this@MainActivity)
