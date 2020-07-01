@@ -4,11 +4,6 @@
     <item>
         <shape>
 
-            <corners android:radius="3pt"/>
-            <padding android:bottom="3pt"
-                android:top="3pt"
-                android:left="3pt"
-                android:right="3pt"/>
             <gradient android:startColor="#6200EE"
                 android:endColor="#fff"
                 android:angle="270"/>

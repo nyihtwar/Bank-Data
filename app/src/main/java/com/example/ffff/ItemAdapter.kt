@@ -20,16 +20,16 @@ class ItemAdapter (val context: Context, val rates: Rate):RecyclerView.Adapter<I
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
        val rate=rates
-        holder.itemView.rate_item.text="US Dollar is ${rate.USD} Kyats"+"\n"+"Chinese Yann is ${rate.CNY} Kyats"+"\n"+"Swiss Franc is ${rate.CHF} Kyats"+"\n"+"Sir Lanka Rupee is ${rate.LKR} Kyats"+
-                "\n"+"New Zealand Dollar  is ${rate.NZD} Kyats"+"\n"+"South Korea Won is ${rate.KRW} Kyats"+"\n"+"Egyptian Pound is ${rate.EGP} Kyats"+
-                "\n"+"Vietnamese Dong is ${rate.VND} Kyats"+"\n"+"Bangladeshi Taka is ${rate.BDT} Kyats"+"\n"+"Philippine Peso is ${rate.PHP} Kyats"+"\n"+"Indonesian Rupiah is ${rate.IDR} Kyats"+"\n"+
-                "Cambodian Riel is ${rate.KHR} Kyats"+"\n"+"Serbian Dinar is ${rate.RSD} Kyats"+"\n"+"Singapore Dollar is ${rate.SGD} Kyats"+"\n"+"Malaysian Riggit is ${rate.MYR} Kyats"+"\n"+
-                "Czech Koruna is ${rate.CZK} Kyats"+"\n"+"Swedish Krona is ${rate.SEK} Kyats"+"\n"+"Japanese Yen is ${rate.JPY} Kyats"+"\n"+"Norwegian Kroner is ${rate.NOK} Kyats"+"\n"+
-                "Israeli New Shekel is ${rate.ILS} Kyats"+"\n"+"Russian Rouble is ${rate.RUB} Kyats"+"\n"+"Kuwaiti Dinar is ${rate.KWD} Kyats"+"\n"+"Hong Kong Dollar is ${rate.HKD} Kyats"+"\n"+
-                "Brazilian Rea is ${rate.BRL} Kyats"+"\n"+"Canadian Dollar is ${rate.CAD} Kyats"+"\n"+"South African Rand is ${rate.ZAR} Kyats"+"\n"+"British Pound is ${rate.GBP} Kyats"+"\n"+
-                "Nepalese Rupee is ${rate.NPR} Kyats"+"\n"+"Kenyan Shilling is ${rate.KES} Kyats"+"\n"+"Danish Krone is ${rate.DKK} Kyats"+"\n"+"Thai Baht is ${rate.THB} Kyats"+"\n"+
-                "Australian Dollar is ${rate.AUD} Kyats"+"\n"+"Pakistan Rupee is ${rate.PKR} Kyats"+"\n"+"Brunei Dollar is ${rate.BND} Kyats"+"\n"+"Saudi Riyal is ${rate.SAR} Kyats"+"\n"+
-                "Euro is ${rate.EUR} Kyats"+"\n"+"Lao Kip is ${rate.LAK} Kyats"+"\n"+"Indian Rupee is ${rate.INR} Kyats"+"\n"
+        holder.itemView.rate_item.text="US Dollar = ${rate.USD} Kyats"+"\n"+"Chinese Yann = ${rate.CNY} Kyats"+"\n"+"Swiss Franc = ${rate.CHF} Kyats"+"\n"+"Sir Lanka Rupee = ${rate.LKR} Kyats"+
+                "\n"+"New Zealand Dollar  = ${rate.NZD} Kyats"+"\n"+"South Korea Won = ${rate.KRW} Kyats"+"\n"+"Egyptian Pound = ${rate.EGP} Kyats"+
+                "\n"+"Vietnamese Dong = ${rate.VND} Kyats"+"\n"+"Bangladeshi Taka = ${rate.BDT} Kyats"+"\n"+"Philippine Peso = ${rate.PHP} Kyats"+"\n"+"Indonesian Rupiah = ${rate.IDR} Kyats"+"\n"+
+                "Cambodian Riel = ${rate.KHR} Kyats"+"\n"+"Serbian Dinar = ${rate.RSD} Kyats"+"\n"+"Singapore Dollar = ${rate.SGD} Kyats"+"\n"+"Malaysian Riggit = ${rate.MYR} Kyats"+"\n"+
+                "Czech Koruna = ${rate.CZK} Kyats"+"\n"+"Swedish Krona = ${rate.SEK} Kyats"+"\n"+"Japanese Yen = ${rate.JPY} Kyats"+"\n"+"Norwegian Kroner = ${rate.NOK} Kyats"+"\n"+
+                "Israeli New Shekel = ${rate.ILS} Kyats"+"\n"+"Russian Rouble = ${rate.RUB} Kyats"+"\n"+"Kuwaiti Dinar = ${rate.KWD} Kyats"+"\n"+"Hong Kong Dollar = ${rate.HKD} Kyats"+"\n"+
+                "Brazilian Rea = ${rate.BRL} Kyats"+"\n"+"Canadian Dollar = ${rate.CAD} Kyats"+"\n"+"South African Rand = ${rate.ZAR} Kyats"+"\n"+"British Pound = ${rate.GBP} Kyats"+"\n"+
+                "Nepalese Rupee = ${rate.NPR} Kyats"+"\n"+"Kenyan Shilling = ${rate.KES} Kyats"+"\n"+"Danish Krone = ${rate.DKK} Kyats"+"\n"+"Thai Baht = ${rate.THB} Kyats"+"\n"+
+                "Australian Dollar = ${rate.AUD} Kyats"+"\n"+"Pakistan Rupee = ${rate.PKR} Kyats"+"\n"+"Brunei Dollar = ${rate.BND} Kyats"+"\n"+"Saudi Riyal = ${rate.SAR} Kyats"+"\n"+
+                "Euro = ${rate.EUR} Kyats"+"\n"+"Lao Kip = ${rate.LAK} Kyats"+"\n"+"Indian Rupee = ${rate.INR} Kyats"+"\n"
 
 
     }
